@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    
+}
 /*Typical device breakpoints
 -----------------------------
 Celular extra pequeno (retrato) : 320px – 480px
@@ -58,11 +62,13 @@ div.box-tarefas img{
 div.box-tarefas h2{
     font-size: 2em;
     font-family: system-ui;
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 div.box-tarefas h3{
     font-size: 1.5em;
     font-family: system-ui;
+    
     margin-bottom: 5px;
 }
 
@@ -85,7 +91,7 @@ input[type=checkbox]{
     cursor: pointer;
 }
 input[type="checkbox"]:checked {
-    background-color: var(--cor1); /* Cor verde ao marcar */
+    background-color: var(--cor1); /* Cor --cor1:#401A39; ao marcar */
 }
 
 input[type="checkbox"]:checked::after {

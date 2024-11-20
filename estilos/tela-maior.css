@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width:720px) {
+    header{
+        background-image: linear-gradient(to right, var(--cor1), var(--cor4));
+    }
+    main{
+        flex-flow: row nowrap;
+        background-image: none;
+        height: 90vh;
+        transition-duration: 2s;
+    }
+
+    html, body{
+
+        background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor5), var(--cor2));
+    }
+
+}
